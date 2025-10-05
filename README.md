@@ -1,4 +1,6 @@
-# Ajl-poster Format
+# ajl-poster 
+
+This is a modified version of the [Quarto poster](https://github.com/quarto-ext/typst-templates/tree/main/poster) format. The current version results in an error regarding the headings when the user attempts to render the poster. As a result, this template is virtually the same as the Quarto version but with heading numbers removed. 
 
 ## Installing
 
