@@ -49,7 +49,7 @@
   univ_logo_column_size: "10",
 
   // Title and authors' column size (in in).
-  title_column_size: "20",
+  title_column_size: "24",
 
   // Poster title's font size (in pt).
   title_font_size: "48",
@@ -63,11 +63,14 @@
   // Footer's text font size (in pt).
   footer_text_font_size: "40",
 
+  // The body font family.
+  font: "Fira Sans",
+
   // The poster's content.
   body
 ) = {
   // Set the body font.
-  set text(font: "Fira Sans", size: 16pt)
+  set text(font: font, size: 16pt)
   let sizes = size.split("x")
   let width = int(sizes.at(0)) * 1in
   let height = int(sizes.at(1)) * 1in
@@ -86,7 +89,7 @@
     width: width,
     height: height,
     margin: 
-      (top: 1in, left: 2in, right: 2in, bottom: 2in),
+      (top: 1in, left: 1in, right: 1in, bottom: 2in),
     footer: [
       #set align(center)
       #set text(32pt)
@@ -96,11 +99,11 @@
         inset: 20pt,
         radius: 10pt,
         [
-          #text(font: "Fira Sans", size: footer_url_font_size, footer_url) 
-          #h(1fr) 
-          #text(size: footer_text_font_size, smallcaps(footer_text)) 
-          #h(1fr) 
-          #text(font: "Fira Sans", size: footer_url_font_size, footer_email_ids)
+          #text(font: font, size: footer_url_font_size, footer_url)
+          #h(1fr)
+          #text(size: footer_text_font_size, smallcaps(footer_text))
+          #h(1fr)
+          #text(font: font, size: footer_url_font_size, footer_email_ids)
         ]
       )
     ]

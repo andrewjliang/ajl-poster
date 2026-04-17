@@ -3,6 +3,7 @@ title: This is an academic poster with typst and quarto!
 format:
   ajl-poster-typst: 
     size: "36x24"
+    font: Fira Sans
     poster-authors: "A. Smith, B. Jones, C. Brown, D. Miller"
     departments: "Department of Computer Science"
     institution-logo: "./images/UCSanDiegoLogo-Blue.png"

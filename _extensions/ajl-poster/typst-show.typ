@@ -18,6 +18,7 @@
   $if(poster-authors)$ authors: [$poster-authors$], $endif$
   $if(departments)$ departments: [$departments$], $endif$
   $if(size)$ size: "$size$", $endif$
+  $if(font)$ font: "$font$", $endif$
 
   // Institution logo.
   $if(institution-logo)$ univ_logo: "$institution-logo$", $endif$
