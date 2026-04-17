@@ -1,8 +1,10 @@
 # ajl-poster 
 
+## Version 1.0.1
+
 This is a modified version of the [Quarto poster](https://github.com/quarto-ext/typst-templates/tree/main/poster) format. The current version results in an error regarding the headings when the user attempts to render the poster. As a result, this template is virtually the same as the Quarto version but with heading numbers removed. 
 
-To reflect my current (as of 4/16/2026) status as a student at the University of California, San Diego, I replaced the NCSU logo with one from UCSD. The default font has also been changed to Carlito, which can be obtained [here](https://fonts.google.com/specimen/Carlito).
+To reflect my current (as of 4/16/2026) status as a student at the University of California, San Diego, I replaced the NCSU logo with one from UCSD.
 
 ## Installing
 
